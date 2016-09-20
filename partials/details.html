@@ -1,0 +1,26 @@
+	<section class="overlay">
+		<div class="wrapper">
+			<div class="controls">
+				<a class="btn" href="#/details/{{prevItem}}">
+					<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+				</a>
+				<a class="btn" href="#/details/{{nextItem}}">
+					<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+				</a>
+				<a class="btn btn-right" href="#portfolio">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>
+				</a>
+			</div>
+
+
+			<img class="4u 8u$(mobile)" ng-src="images/portfolio/{{works[whichItem].image}}">
+
+
+			<h4>{{works[whichItem].name}}</h4>
+			<a href="{{works[whichItem].url}}" title="{{works[whichItem].name}}" target="_blank">URL</a>
+			<span>{{works[whichItem].languages}}</span>
+			<p>{{works[whichItem].description}}</p>
+			<span>Date: {{works[whichItem].date}}</span>
+
+		</div>
+	</section>	

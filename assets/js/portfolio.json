@@ -1,0 +1,159 @@
+[
+	{
+		"alias": "vk",
+		"name":"Venue Kings",
+		"url": "http://www.venuekings.com",
+		"description" : "Venue Kings is a ticket broker that specializes in premium ticket inventory for events across North America",
+		"role" : "App and Frontend Developer, Content publisher",
+		"languages" : "RAZOR, AngularJS, jQuery, HTML5, SCSS",
+		"cms" : "Umbraco",
+		"date" : "2015-2016 - current",
+		"image" : "vk.png",
+		"thumbnail" : "vk_lg.png"
+	},
+	{
+		"alias": "714",
+		"name":"714Tickets",
+		"url": "http://www.714tickets.com",
+		"description" : "714Tickets and 714Tickets.com are a licensed ticket broker in Anaheim, California specializing in buying and selling tickets for concerts, sports, and theatre events in Southern California and nationwide.",
+		"role" : "App and Frontend Developer",
+		"languages" : "RAZOR, AngularJS, jQuery, HTML5, SCSS",
+		"cms" : "Umbraco",
+		"date" : "2015-2016 - current",
+		"image" : "714.png",
+		"thumbnail" : "714_lg.png"
+	},
+	{
+		"alias": "ap",
+		"name":"AutoProcessor",
+		"url": "http://www.autoprocessorexchange.com",
+		"description" : "Buy and sell inventory in real-time on the AutoProcessor Exchange.",
+		"role" : "App and Frontend Developer",
+		"languages" : "RAZOR, AngularJS, jQuery, HTML5, SCSS",
+		"cms" : "Umbraco",
+		"date" : "2016 - current",
+		"image" : "autoprocessor.jpg",
+		"thumbnail" : "autoprocessor_lg.png"
+	},
+	{
+		"alias": "mm",
+		"name":"Made Media Inc.",
+		"url": "http://getmade.co",
+		"description" : "Made Media provides technology solutions for face‑to‑face salespeople, fundraisers and the people that manage them.",
+		"role" : "Frontend Developer",
+		"languages" : "Node Js, jQuery, HTML5, SCSS",
+		"date" : "2015",
+		"image" : "getmade.png",
+		"thumbnail" : "getmade_lg.png"
+	},
+	{
+		"alias": "aq",
+		"name":"Boutique Arthur Quentin",
+		"url": "http://www.http://arthurquentin.com",
+		"description" : "Big exclusive store that sells home products as table to kitchen, fashion accessories to home décor",
+		"role" : "Frontend and Web Developer",
+		"languages" : "PHP, jQuery, HTML5, CSS",
+		"date" : "2013 - current",
+		"image" : "arthurquentin.png",
+		"thumbnail" : "arthurquentin_lg.gif"
+	},
+	{
+		"alias": "solareh",
+		"name":"Solareh, Employee Assistance Program",
+		"url": "https://client.solareh.com/en",
+		"description" : "Solareh’s program is designed to offer professional assistance to the employees of organizations and their dependent family members. It also offers resources tailored to the needs of managers.",
+		"role" : "Designer, Frontend and Web Developer",
+		"languages" : "PHP, jQuery, HTML5, CSS, Codeigniter",
+		"date" : "2012",
+		"image" : "solareh.png",
+		"thumbnail" : "solareh_lg.png"
+	},
+	{
+		"alias": "nellie",
+		"name":"Nellie Philanthropy Foundation",
+		"url": "www.nelliefoundation.ca",
+		"description" : "The Nellie Philanthropy Foundation (NPF) is a Canadian charitable public foundation committed to helping underprivileged kids as well as the less fortunate in the Montreal community.",
+		"role" : "Designer, Frontend and Web Developer",
+		"languages" : "PHP, javascript, HTML5, CSS",
+		"date" : "2011",
+		"image" : "nellie.png",
+		"thumbnail" : "nellie_lg.png"
+	},
+	{
+		"alias": "www",
+		"name":"Wizard Window Washing",
+		"url": "http://wizardwindowwashing.ca",
+		"description" : "Through Their website the customers can booked appointments to have different services.",
+		"role" : "Designer, Frontend and Web Developer",
+		"languages" : "PHP, javascript, HTML5, CSS, Joomla!",
+		"date" : "2011",
+		"image" : "wizard.png",
+		"thumbnail" : "wizard_lg.png"
+	},
+	{
+		"alias": "bd",
+		"name":"Bogota Despierta",
+		"url": "#",
+		"description" : "Nights events guide in Bogota. Maximize your non-sleep night fun with a little guidance and a bit of planning",
+		"role" : "Frontend and Web Developer",
+		"languages" : "PHP, Flash, HTML, CSS, Joomla!",
+		"date" : "2009",
+		"image" : "bogotadespierta.jpg",
+		"thumbnail" : "bogotadespierta_lg.png"
+	},
+	{
+		"alias": "afb",
+		"name":"Afro Boutik",
+		"url": "#",
+		"description" : "Online Shop hair care products and accesories. This Project were Online for a few months, owners decide close due at the stock issues",
+		"role" : "Frontend and Web Developer",
+		"languages" : "PHP, HTML, CSS, OpenCart",
+		"date" : "2012",
+		"image" : "afroboutik.png",
+		"thumbnail" : "afroboutik_lg.png"
+	},
+	{
+		"alias": "avn",
+		"name":"Averna",
+		"url": "#",
+		"description" : "Averna is a Test Engineering leader, delivering innovative test expertise and solutions for numerous clients in wide-ranging industries around the world.",
+		"role" : "Frontend Developer",
+		"languages" : "ExpressionEngine, PHP, HTML, CSS",
+		"date" : "2012",
+		"image" : "averna.png",
+		"thumbnail" : "averna_lg.png"
+	},
+	{
+		"alias": "ccmm",
+		"name":"CCMM - LaPresse",
+		"url": "#",
+		"description" : "Infographic about new destinations fligths from Montreal to Panama, Tunisia and Turkey",
+		"role" : "Frontend Developer",
+		"languages" : "jQuery, HTML, CSS",
+		"date" : "2014",
+		"image" : "ccmm_lapress.png",
+		"thumbnail" : "ccmm_lg.png"
+	},
+	{
+		"alias": "ire",
+		"name":"Inspection Residentielle Excellence",
+		"url": "#",
+		"description" : "Buildings Inspection health experts, through this website the customers can search the closest inspector over the interactive map",
+		"role" : "Frontend Developer",
+		"languages" : "PHP, HTML, CSS, Javascript, Raphael",
+		"date" : "2012",
+		"image" : "inspection_residentielle.png",
+		"thumbnail" : "inspection_residentielle_lg.png"
+	},
+	{
+		"alias": "mkds",
+		"name":"MKDS Trainning",
+		"url": "#",
+		"description" : "MKDS Training is a client-focused risk Mitigation Company, providing a variety of fully integrated services",
+		"role" : "Frontend and Web Developer",
+		"languages" : "PHP, HTML, CSS, Joomla!",
+		"date" : "2013",
+		"image" : "mkds.png",
+		"thumbnail" : "mkds_lg.png"
+	}
+]

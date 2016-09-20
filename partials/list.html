@@ -1,0 +1,11 @@
+<div class="content">
+	<article ng-animate="'animate'" class="jpr-item item 4u 12u$(mobile)" ng-repeat="item in works | filter: query | orderBy: worksOrder:direction">
+		<a href="#/details/{{works.indexOf(item)}}" class="image fit" title="{{item.name}}">
+			<img class="img-portfolio" ng-src="images/portfolio/{{item.thumbnail}}" title="{{item.name}}" />
+		</a>
+		<header>
+			<h3>{{item.name}}</h3>
+		</header>
+	</article>	
+</div>
+
