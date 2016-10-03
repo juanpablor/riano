@@ -8,7 +8,7 @@
 		"languages" : "RAZOR, AngularJS, jQuery, HTML5, SCSS",
 		"cms" : "Umbraco",
 		"date" : "2015-2016 - current",
-		"image" : "vk.png",
+		"image" : "vk_dtl.png",
 		"thumbnail" : "vk_lg.png"
 	},
 	{
@@ -20,7 +20,7 @@
 		"languages" : "RAZOR, AngularJS, jQuery, HTML5, SCSS",
 		"cms" : "Umbraco",
 		"date" : "2015-2016 - current",
-		"image" : "714.png",
+		"image" : "714_dtl.png",
 		"thumbnail" : "714_lg.png"
 	},
 	{
@@ -32,7 +32,7 @@
 		"languages" : "RAZOR, AngularJS, jQuery, HTML5, SCSS",
 		"cms" : "Umbraco",
 		"date" : "2016 - current",
-		"image" : "autoprocessor.jpg",
+		"image" : "autoprocessor_dtl.png",
 		"thumbnail" : "autoprocessor_lg.png"
 	},
 	{
@@ -43,7 +43,7 @@
 		"role" : "Frontend Developer",
 		"languages" : "Node Js, jQuery, HTML5, SCSS",
 		"date" : "2015",
-		"image" : "getmade.png",
+		"image" : "getmade_dtl.png",
 		"thumbnail" : "getmade_lg.png"
 	},
 	{
@@ -54,8 +54,8 @@
 		"role" : "Frontend and Web Developer",
 		"languages" : "PHP, jQuery, HTML5, CSS",
 		"date" : "2013 - current",
-		"image" : "arthurquentin.png",
-		"thumbnail" : "arthurquentin_lg.gif"
+		"image" : "arthurquentin_dtl.png",
+		"thumbnail" : "arthurquentin_lg.png"
 	},
 	{
 		"alias": "solareh",
@@ -65,7 +65,7 @@
 		"role" : "Designer, Frontend and Web Developer",
 		"languages" : "PHP, jQuery, HTML5, CSS, Codeigniter",
 		"date" : "2012",
-		"image" : "solareh.png",
+		"image" : "solareh_dtl.png",
 		"thumbnail" : "solareh_lg.png"
 	},
 	{
@@ -76,7 +76,7 @@
 		"role" : "Designer, Frontend and Web Developer",
 		"languages" : "PHP, javascript, HTML5, CSS",
 		"date" : "2011",
-		"image" : "nellie.png",
+		"image" : "nellie_dtl.png",
 		"thumbnail" : "nellie_lg.png"
 	},
 	{
@@ -87,7 +87,7 @@
 		"role" : "Designer, Frontend and Web Developer",
 		"languages" : "PHP, javascript, HTML5, CSS, Joomla!",
 		"date" : "2011",
-		"image" : "wizard.png",
+		"image" : "wizard_dtl.png",
 		"thumbnail" : "wizard_lg.png"
 	},
 	{
@@ -98,7 +98,7 @@
 		"role" : "Frontend and Web Developer",
 		"languages" : "PHP, Flash, HTML, CSS, Joomla!",
 		"date" : "2009",
-		"image" : "bogotadespierta.jpg",
+		"image" : "bogotadespierta_dtl.png",
 		"thumbnail" : "bogotadespierta_lg.png"
 	},
 	{
@@ -109,7 +109,7 @@
 		"role" : "Frontend and Web Developer",
 		"languages" : "PHP, HTML, CSS, OpenCart",
 		"date" : "2012",
-		"image" : "afroboutik.png",
+		"image" : "afroboutik_dtl.png",
 		"thumbnail" : "afroboutik_lg.png"
 	},
 	{
@@ -120,7 +120,7 @@
 		"role" : "Frontend Developer",
 		"languages" : "ExpressionEngine, PHP, HTML, CSS",
 		"date" : "2012",
-		"image" : "averna.png",
+		"image" : "averna_dtl.png",
 		"thumbnail" : "averna_lg.png"
 	},
 	{
@@ -131,7 +131,7 @@
 		"role" : "Frontend Developer",
 		"languages" : "jQuery, HTML, CSS",
 		"date" : "2014",
-		"image" : "ccmm_lapress.png",
+		"image" : "ccmm_lapress_dtl.png",
 		"thumbnail" : "ccmm_lg.png"
 	},
 	{
@@ -142,7 +142,7 @@
 		"role" : "Frontend Developer",
 		"languages" : "PHP, HTML, CSS, Javascript, Raphael",
 		"date" : "2012",
-		"image" : "inspection_residentielle.png",
+		"image" : "inspection_residentielle_dtl.png",
 		"thumbnail" : "inspection_residentielle_lg.png"
 	},
 	{
@@ -153,7 +153,7 @@
 		"role" : "Frontend and Web Developer",
 		"languages" : "PHP, HTML, CSS, Joomla!",
 		"date" : "2013",
-		"image" : "mkds.png",
+		"image" : "mkds_dtl.png",
 		"thumbnail" : "mkds_lg.png"
 	}
 ]

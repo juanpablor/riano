@@ -3,7 +3,7 @@ var portfolioControllers = angular.module('portfolioControllers',['ngAnimate']);
 portfolioControllers.controller('ListController', ['$scope', '$http', function($scope, $http){
 	$http.get('assets/js/portfolio.json').success(function(data){
 		$scope.works = data;
-		$scope.worksOrder = 'name';
+		//$scope.worksOrder = '';
 	}) 
 }]);
 
