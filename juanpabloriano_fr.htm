@@ -5,18 +5,15 @@
 <title>CV - Juan Pablo Riano</title>
 
 <style>
-@font-face {
-  font-family: 'Yanone Kaffeesatz';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v4/YDAoLskQQ5MOAgvHUQCcLRTHiN2BPBirwIkMLKUspj4.woff) format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 *{
-	font-family: 'Yanone Kaffeesatz';
+	font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 	padding:0;
 	margin:0;
 	border:0;
 }
+
 header, section {
 	width:900px;
 	margin:10px auto;
@@ -62,6 +59,11 @@ section h4 {
 
 }
 
+section article{
+  display: inline-block;
+  width: 900px;
+}
+
 section article h5{
 	font-size:18px;
 	margin-left:20px;
@@ -73,11 +75,22 @@ section article span {
 	border-bottom: 1px solid #999;
 	}
 
-section article .empresa{
+section article h5 i{
+  font-size: 18px;
+}
+
+
+section article .empresa,
+section article .entorno-tecnico{
  	float:left;	
 	margin-left:25px;
 		
 	}
+
+section article .entorno-tecnico span{
+  font-weight: 700;
+  border: none;
+  }
 	
 section article .fecha{	
 	 float:right;
@@ -85,8 +98,9 @@ section article .fecha{
 	}
 
 ul {
-	clear:both;
-	margin-left:50px;}
+  clear: both;
+  margin: 10px 46px;
+}
 
 </style>
 
@@ -94,29 +108,28 @@ ul {
 
 <body>
 <header>
-<img name="logo" src="images/riano_r_fr.png" alt="Logo" />
+<img name="logo" src="riano_r_fr.png" alt="Logo" />
 <article>
     <h1>Juan Pablo Riano</h1>
     <h2>240, Rue des Sittelles<br />
-    J6K OG6 Châteauguay (Québec)</h2>
+    Châteauguay (Québec) J6K OG6</h2>
     <h3 class="telefono">438 877 6270</h3>
     <h3 class="correo">juanpablo@riano.ca</h3>
 </article>
 </header>
 
 <section>
-  <p>Je suis un développeur frontale (front-end), diplômé en développement Web et commerce électronique aussi en design industriel. J'ai plus de 8 ans d'expérience commerciale en travaillant avec des clients en Amérique du Nord et du Sud, offrant des services <i>frontend</i> réactifs et des intégrations CMS.</p>
-  <p>Je développe en utilisant des transitions et des animations qui répondent aux besoins du <i>UI</i>, en utilisant des technologies plus sophistiquées disponibles aujourd'hui pour les sites Web pleinement interactifs et réactifs sur des applications.</p>
+  <p>Je suis un développeur frontale (front-end), diplômé en développement Web et commerce électronique aussi en design industriel. J'ai plus de 8 ans d'expérience commerciale en travaillant avec des clients en Amérique du Nord et du Sud, offrant des services <i>frontend</i> réactifs et des intégrations CMS. Je développe en utilisant des transitions et des animations qui répondent aux besoins du <i>UI</i>, en utilisant des technologies plus sophistiquées disponibles aujourd'hui pour les sites Web pleinement interactifs et réactifs sur des applications.</p>
 </section>
 
 <section>
   <h4>SOMMAIRE DE COMPÉTENCES</h4>
     <ul>
       <li>Production de HTML, CSS et JavaScript pour sites web et des applications</li>
-      <li>Application de la sémantique, meilleures pratiques et l'objectivité dans le code</li>
+      <li>Créer des <i>wireframes</i>, des <i>wireframes</i>storyboards, des <i>user flows</i> et des cartes de site pour communiquer efficacement des idées d'interaction et de conception</li>
       <li>Huit ans d’expérience comme développeur <i>frontend</i> et neuf ans d’expérience comme designer industriel</li>
       <li>Développement des applications ans sites web <i>cross-browser</i> et <i>cross-platform</i> compatibles</li>
-      <li>Implementation des nouvelles technologies, langages et des outils qui permettent l’optimisations de processus et travail en équipe (par exemple: SASS/LESS compilateurs, des environnements d’execution, gestionnaires de contenu, source contrôle).</li>
+      <li>Implementation des nouvelles technologies, langages et des outils qui permettent l’optimisation de processus et travail en équipe (par exemple: SASS/LESS compilateurs, des environnements d’execution, gestionnaires de contenu, source contrôle).</li>
       <li>Compétences en optimisation des images pour web sur Photoshop et/ou Illustrator</li>
       <li>Habileté d’améliorer des processus au sein d’un style de travail flexible</li>
       <li>Familiarité avec des logiciels de CAO et de processus industriels.</li>
@@ -125,19 +138,19 @@ ul {
 
 <section>
     <h4>EXPÉRIENCES PROFESSIONNELLES</h4>
-
     <article>
       <h5><i>SOFTWARE DEVELOPER</i></h5>
       <span class="empresa">(Ilusoft Inc.)</span>
       <span class="fecha">2015 - Actuelment</span>
-        <ul>
-          <li>Créer des modèles CSHTML/SCSS sur Umbraco CMS</li>
-          <li>Ameliorer/créer <i>UI Mobile experience</i></li>
-          <li>Intégrationt des modèles HTML pour les différent processus (comme le <i>checkout</i>) avec AngularJS</li>
-          <li>Créer des contrôles Umbraco pour afficher le contenu dynamiquement</li>
-          <li>Diriger les nouveaux projets basés sur des fichiers SVG</li>
-          <li>Gérer le processus de production des images SVG à partir de fichiers CAO</li>
-        </ul>  
+      <ul>
+        <li>Créer des modèles CSHTML/SCSS sur Umbraco CMS</li>
+        <li>Ameliorer/créer <i>UI Mobile experience</i></li>
+        <li>Intégrationt des modèles HTML pour les différents processus (comme le <i>checkout</i>) avec AngularJS</li>
+        <li>Créer des contrôles Umbraco pour afficher le contenu dynamiquement</li>
+        <li>Diriger les nouveaux projets basés sur des fichiers SVG</li>
+        <li>Gérer le processus de production des images SVG à partir de fichiers CAO</li>
+      </ul>
+      <p class="entorno-tecnico"><span>Environnement Technique :</span> Microsoft Windows, iOS 9, Microsoft SQL Server, Microsoft Visual Studio 2015, TFS, AngularJS, SASS, Razor, Photoshop, Illustrator, D3JS, AutoCAD</p>  
     </article>
 
     <article>
@@ -148,10 +161,10 @@ ul {
           <li>Intégrer des designs fournis en langage HTML5 et SCSS (SASS)</li>
           <li>Créer des codes pour UI sur les versions d'ordinateur régulier qui supportent iOS, Android et Windows 8</li>
           <li>Être à l'aise avec des problèmes de l'industrie et des tendances, en particulier en ce qui concerne l'accessibilité, la convivialité et les technologies émergentes</li>
-          <li>Chercher constamment à se développer par l'apprentissage de nouvelles technologies.</li>
           <li>Recherche de nouvelles plates-formes pour améliorer les performances des applications existantes et nouvelles telles que AngularJS et ReactJS</li>
           <li>Développer des applications compatibles avec des appareils mobiles sur jQuery</li>
-        </ul>  
+        </ul>
+      <p class="entorno-tecnico"><span>Environnement Technique :</span> OS X (Mavericks, Yosemite El Capitan), iOS 7/8, NodeJS, MongoDB, GIT, JQuery, EJS Templating, SASS, Photoshop, Illustrator</p> 
     </article>  
 
     <article>
@@ -164,7 +177,8 @@ ul {
             <li>Production de courriels de promotion, de pages Web d’activités, de nouvelles et de publications, dont les contenus sont transmis par les services de communications et du marketing.</li>
             <li>Publier des nouvelles sur les médias sociaux</li>
             <li>Concevoir le code JQuery pour la publicité interactive de la chambre sur La Presse+</li>
-        </ul>  
+        </ul>
+        <p class="entorno-tecnico"><span>Environnement Technique :</span> Microsoft Windows, Sitecore CMS, HTML, CSS, Photoshop</p> 
     </article>	
     
     <article>
@@ -178,7 +192,8 @@ ul {
             <li>Tester le code sur les différentes plateformes mobiles (Android, iOS, Blackberry, windows).</li>
             <li>Utilisation des systèmes de contrôle des versions SVN.</li>
             <li>Créer des masters en Photoshop et des images optimisées pour les écrans Retina de dispositifs intelligents.</li>
-        </ul> 
+        </ul>
+        <p class="entorno-tecnico"><span>Environnement Technique :</span> Microsoft Windows, iOS 6/7, PHP, JQuery Mobile Tortoise, HTML, CSS3 Photoshop</p> 
     </article>	
     
     <article>
@@ -194,7 +209,7 @@ ul {
             <li>Collaborer aux intégrations et redésigne <i>Frontend</i> des nouveaux sites avec le CMS Expression Engine</li>
             <li>Gestion des serveurs d'hébergement et serveurs de courriel.</li>
         </ul>
-
+        <p class="entorno-tecnico"><span>Environnement Technique :</span> OS X (Lion, Mountain Lion), SVN, MySQL, PHP, Code Igniter, HTML, CSS, Photoshop, Illustrator</p> 
     </article>	
     
     <article>
