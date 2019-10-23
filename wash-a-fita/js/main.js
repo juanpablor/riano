@@ -163,11 +163,15 @@ $(document).ready(function(){
     });
 
         $('.active-testimonial').owlCarousel({
-        items:2,
-        margin:30,
+        items:1,
+        margin:1000,
         autoplay:true,
         loop:true,
-        dots: true,       
+        dots: false,
+        autoplayTimeout: 7000,
+        smartSpeed: 4000,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         responsive: {
             0: {
                 items: 1
@@ -176,10 +180,10 @@ $(document).ready(function(){
                 items: 1,
             },
             768: {
-                items: 2,
+                items: 1,
             },
             900: {
-                items: 2,
+                items: 1,
             }
 
         }
