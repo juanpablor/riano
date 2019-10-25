@@ -1442,7 +1442,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997; }
 
 #header.header-scrolled {
-  background: rgba(59, 172, 240, 0.6);
+  background: rgba(136, 136, 136, 0.95);
   transition: all 0.5s; }
 
 @media (max-width: 673px) {
@@ -1549,7 +1549,8 @@ h1, h2, h3, h4, h5, h6 {
   outline: none; }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  border-bottom: solid 3px #222; }
+  color: orange;
+  border-bottom: solid 3px orange; }
 
 .nav-menu > li {
   margin-left: 10px; }
@@ -2099,7 +2100,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area {
   padding-top: 100px;
-  background-color: #04091e; }
+  background-color: #222; }
   .footer-area h6 {
     color: #fff;
     margin-bottom: 25px;

@@ -13,8 +13,7 @@
 }
 
 #header.header-scrolled {
-  // background:rgba(#000,.8);
-  background: rgba($primary-color,.6);
+  background:rgba(#888,.95);
   transition: all 0.5s;
 }
 
@@ -152,9 +151,8 @@
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  // color: $primary-color;
-
-  border-bottom: solid 3px $black;
+  color: orange;
+  border-bottom: solid 3px orange;
 }
 
 .nav-menu > li {
