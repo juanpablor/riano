@@ -2080,19 +2080,25 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 0px 25px 0px 0px;
     background: #3bacf0; }
 
-.single-testimonial {
-  padding: 25px 30px 12px 30px; }
-  .single-testimonial .thumb {
-    margin-right: 30px; }
-  .single-testimonial h4 {
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    margin-bottom: 5px; }
-    .single-testimonial h4:hover {
-      color: #3bacf0;
-      cursor: pointer; }
+.single-testimonial h4 {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 5px; }
+  .single-testimonial h4:hover {
+    color: #3bacf0;
+    cursor: pointer; }
+.single-testimonial .desc {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 100;
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 30%;
+  padding: 15px; }
+  .single-testimonial .desc h3 {
+    color: rgba(34, 34, 34, 0.6); }
 
 .star .checked {
   color: orange; }

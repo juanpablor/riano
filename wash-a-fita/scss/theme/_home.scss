@@ -567,10 +567,7 @@
 
 .single-testimonial{
 	// background-color: $white;
-	padding: 25px 30px 12px 30px;
-	.thumb{
-		margin-right:30px;
-	}
+	// padding: 25px 30px 12px 30px;
 	h4{
 		@include transition();
 		margin-bottom:5px;
@@ -578,6 +575,18 @@
 			color:$primary-color;
 			cursor:pointer;
 		}
+	}
+	.desc{
+	    position: absolute;
+	    background: rgba($white, 0.8);
+	    z-index: 100;
+	    width: 70%;
+	    margin-left: 10%;
+	    margin-top: 30%;
+	    padding:15px;
+	    h3{
+			color:rgba($black, 0.6);
+	    }
 	}
 }
 	.star{
