@@ -13,7 +13,7 @@
 }
 
 #header.header-scrolled {
-  background:rgba(#000,.8);
+  background:rgba($white,.95);
   transition: all 0.5s;
 }
 
@@ -143,15 +143,16 @@
   padding:6px 10px;
   text-decoration: none;
   display: inline-block;
-  color: $white;
-  font-weight: 400;
+  color: $black;
+  font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  // color: $primary-color;
+  color: orange;
+  border-bottom: solid 3px orange;
 }
 
 .nav-menu > li {
