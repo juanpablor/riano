@@ -535,6 +535,7 @@
 
 .testimonial-area{	
 	background-color:$offwhite;
+	margin-top: 100px;
 
 	.owl-dots {
 		text-align:center;
@@ -588,6 +589,18 @@
 			color:rgba($black, 0.6);
 	    }
 	}
+
+	@include media-breakpoint-down(sm) {
+		.desc {
+	    	margin-top: 3%;
+	    	width: 90%;
+	    	margin-left: 5%;
+	    	h3 {
+	    		font-size: 18px;
+	    	}
+		}		
+	}
+
 }
 	.star{
 		.checked {
