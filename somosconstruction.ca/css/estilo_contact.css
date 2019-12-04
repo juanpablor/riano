@@ -24,6 +24,16 @@ body {background:#FEFEFE;}
 	z-index: 200;
 }
 
+@media screen and (max-width: 736px){
+	.register{
+		top:unset;
+		bottom: 2px;
+	}
+	.register a {
+		color: #aaa;
+	}
+} 
+
 .loguera {
 	display: inline-block;
 	

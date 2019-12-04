@@ -6,7 +6,6 @@
 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="fonts/fonts.css" />
 <link rel="stylesheet" href="js/estilos.css" />
-<script src="file:///C|/Users/Roberto Jimeno/Documents/Novic artes graficas/web/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 <style type="text/css">
 <!--
 *{  padding:0px;
@@ -78,13 +77,12 @@ $comentario=$_POST['comentario'];
 
 $para=$_POST['correo'];
 
-$remitente="info@somosconstruction.ca";
+$remitente="info@rjdconstruction.ca";
 $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 $headers .= "From: SOMOS DESIGN & CONSTRUCTION <$remitente>\r\n";
 $headers .= "Reply-To: $remitente\r\n";
 $headers .= "Return-path: $remitente\r\n"; 
-$headers .= "Bcc:novicartesgraficas@gmail.com\r\n";
 
 
 $mensaje='
@@ -199,7 +197,7 @@ border-radius:5px;
 Your data arrived correctly , we are confirming the information, <br>
 in the next 48 hours we will confirm by email.<br><br>
 
-<a href="http://somosconstruction.ca">www.somosconstruction.ca</a>
+<a href="http://somosconstruction.ca">www.rjdconstruction.ca</a>
 </div>
 
 </div>

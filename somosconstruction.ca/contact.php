@@ -77,7 +77,7 @@
 
     <h1>Contact Us</h1>
          
-        <p>Our responsibility is to provide you with the confidence you need to work with SOMOS, for foremost quality, professionalism, design and construction; from concept to delivery. If you want to discuss your project with us, or you have any questions about our services, please contact us. This is the first step to ensure success.</p>
+        <p>Our responsibility is to provide you with the confidence you need to work with RJD Construction, for foremost quality, professionalism, design and construction; from concept to delivery. If you want to discuss your project with us, or you have any questions about our services, please contact us. This is the first step to ensure success.</p>
 
         <div class="direccion">
         
@@ -86,7 +86,7 @@
                                               1001 Rue Lenoir, Suite A227<br>
             Montreal, Quebec, H4C 2Z6<br /></p>
             <p><strong>PHONE:</strong> <br>+1 (514) 447-7484<br/></p>
-            <p><strong>MAIL:</strong> <br>info@somosconstruction.ca</p></br>
+            <p><strong>MAIL:</strong> <br>info@rjdconstruction.ca</p></br>
             
            
         </div>
@@ -148,13 +148,6 @@
 
 
 <!//---- Fin de footer----//>
-
-
-
-
-
-
-
 
 
 
