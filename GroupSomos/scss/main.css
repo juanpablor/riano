@@ -1691,6 +1691,9 @@ body.mobile-nav-active #mobile-nav-toggle {
       .section-title p br {
         display: none; } }
 
+strong {
+  font-weight: 700; }
+
 .primary-btn {
   background-color: #88d200;
   line-height: 42px;
