@@ -825,3 +825,75 @@
 	}
 }
 //----------- End Generic Page -------------//
+
+
+.covid-image{
+	width: 100%;
+}
+.covid-desc{
+	position: absolute;
+	background: #e9eaec;
+	z-index: 100;
+	width: calc(100% - 30px);
+	padding: 15px;
+	bottom: 0;
+	text-align: center;
+	h3{
+		color: #0d54a6;
+		font-size: 36px;
+	}
+}
+.list-in-columns{
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+	li{
+		list-style: disc;
+		list-style-position: inside;
+		font-weight: 900;
+	}
+}
+.orange-title{
+	color: orange;
+}
+.orange-bg{
+	background: orange;
+	padding: 12px 60px;
+	color: white;
+	font-weight: 900;
+	font-size: 20px;
+	&:before,&:after{
+		content: "";
+		display: inline-block;
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-top: 27px solid transparent;
+		border-bottom: 27px solid transparent;
+		border-left: 27px solid #ffffff;
+		margin-top: -16px;
+	}
+	&:before{
+		margin-left: -60px;
+	}
+	&:after{
+		margin-left: 33px;
+		transform: scaleX(-1);
+	}
+}
+.black-title{
+	font-size: 20px;
+	border-left: solid 2px #0d54a6;
+	border-right: solid 2px ;
+	padding: 12px 60px;
+}
+.contact-bar{
+	background: #0d54a6;
+	color: white;
+	a{
+		color: white;
+	}
+	.fa{
+		padding: 0 15px;
+	}
+}
