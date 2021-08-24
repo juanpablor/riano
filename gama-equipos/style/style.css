@@ -289,6 +289,22 @@ footer .bi {
   background-color: #fdcb07;
 }
 
+.modal .modal-dialog {
+  max-width: 600px;
+}
+.modal .modal-dialog .modal-body article {
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid #666 1px;
+}
+.modal .modal-dialog .modal-footer {
+  justify-content: center;
+}
+.modal .modal-dialog .modal-footer.availability a {
+  color: #444;
+  text-decoration: none;
+}
+
 @media (min-width: 320px) and (max-width: 992px) {
   .navbar-toggler {
     top: -64px;
