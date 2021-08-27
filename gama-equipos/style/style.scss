@@ -131,7 +131,7 @@ video{
     justify-content: space-evenly;
     background: url('../assets/bg-lines.png') no-repeat 30px bottom;
     background-size: 55%;
-    article {
+    .article {
         padding-left: 0;
         padding-right: 0;
         background: url('../assets/bg_concrete.png') no-repeat left bottom;
@@ -172,6 +172,18 @@ video{
             }
         }
     }
+    @media (min-width: 320px) and (max-width: 992px) {
+        .article{
+            p{
+                font-size: 18px !important;
+                font-weight: 500;
+                line-height: 18px;
+            }
+            a {
+                font-weight: 800;
+            }
+        }
+    }
 }
 
 .we-are{
@@ -200,6 +212,11 @@ video{
     h3{
         padding-bottom: 30px;
     }
+    @media (min-width: 320px) and (max-width: 992px) {
+        p{
+            padding-right: 20px;
+        }
+    }
 }
 
 
@@ -217,13 +234,37 @@ video{
     }
     .badges{
         div{
-            margin: 40px 0;
+            // margin: 40px 0;
             display: flex;
             justify-content: space-evenly;
         }
     }
     .content-wrap{
         margin-bottom: 80px;
+    }
+    @media (min-width: 320px) and (max-width: 992px) {
+        h3{
+            padding-left: unset;
+            text-align: center;
+        }
+    }
+}
+.transporte{
+    h3{
+        position: relative;
+        bottom: 60px;
+        padding-left:96px;
+        font-size: 32px;
+    }
+    @media (min-width: 320px) and (max-width: 992px) {
+        .divider{
+            height: 100px;
+        }
+        h3{
+            padding-left: unset;
+            bottom: 86px;
+            text-align: center;
+        }
     }
 }
 
@@ -256,6 +297,20 @@ video{
     .max-w-container{
         max-width: 1345px;
         margin: 0 auto;
+    }
+    @media (min-width: 320px) and (max-width: 992px) {
+        h4{
+            font-size: 18px;
+            line-height: 40px;
+        }
+        article {
+            .row{
+                .divider{
+                    height: 44
+                    px;
+                }
+            }
+        }
     }
 }
 
@@ -296,6 +351,9 @@ footer{
     }
     .bi{
         color:white;
+    }
+    .last-row{
+        display: flex;
     }
 }
 
@@ -341,5 +399,21 @@ footer{
     }
     .video-section {
         display: none;
+    }
+    .socialmedia{
+        .feed{
+            width: unset;
+        }
+    }
+    .last-row{
+        display: unset !important;
+        margin-bottom: 40px;
+    }
+    .titles{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .badge{
+        font-size: 20px;
     }
 }

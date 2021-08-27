@@ -120,25 +120,25 @@ video {
   background: url("../assets/bg-lines.png") no-repeat 30px bottom;
   background-size: 55%;
 }
-.services article {
+.services .article {
   padding-left: 0;
   padding-right: 0;
   background: url("../assets/bg_concrete.png") no-repeat left bottom;
   background-size: cover;
   border-radius: 20px;
 }
-.services article .image {
+.services .article .image {
   width: 100%;
 }
-.services article .text-wrapper {
+.services .article .text-wrapper {
   box-shadow: 0 10px 0 0 #373839;
   border-radius: 20px;
 }
-.services article .text-wrapper .text-over {
+.services .article .text-wrapper .text-over {
   text-align: center;
   margin: 0 20px;
 }
-.services article .text-wrapper .text-over h4 {
+.services .article .text-wrapper .text-over h4 {
   margin-top: 16px;
   text-transform: uppercase;
   display: -webkit-box;
@@ -146,19 +146,29 @@ video {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.services article .text-wrapper .text-over p {
+.services .article .text-wrapper .text-over p {
   min-height: 104px;
   font-size: 14px;
 }
-.services article .text-wrapper .text-over .more-info {
+.services .article .text-wrapper .text-over .more-info {
   position: relative;
   bottom: 20px;
 }
-.services article .text-wrapper .text-over .icon {
+.services .article .text-wrapper .text-over .icon {
   height: 44px;
   float: right;
   margin-right: 2px;
   margin-top: -42px;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  .services .article p {
+    font-size: 18px !important;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .services .article a {
+    font-weight: 800;
+  }
 }
 
 .we-are:after {
@@ -190,6 +200,11 @@ video {
 .we-do h3 {
   padding-bottom: 30px;
 }
+@media (min-width: 320px) and (max-width: 992px) {
+  .we-do p {
+    padding-right: 20px;
+  }
+}
 
 .maquinaria:after {
   content: "";
@@ -207,12 +222,34 @@ video {
   font-size: 32px;
 }
 .maquinaria .badges div {
-  margin: 40px 0;
   display: flex;
   justify-content: space-evenly;
 }
 .maquinaria .content-wrap {
   margin-bottom: 80px;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  .maquinaria h3 {
+    padding-left: unset;
+    text-align: center;
+  }
+}
+
+.transporte h3 {
+  position: relative;
+  bottom: 60px;
+  padding-left: 96px;
+  font-size: 32px;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  .transporte .divider {
+    height: 100px;
+  }
+  .transporte h3 {
+    padding-left: unset;
+    bottom: 86px;
+    text-align: center;
+  }
 }
 
 .equipment {
@@ -244,6 +281,15 @@ video {
 .equipment .max-w-container {
   max-width: 1345px;
   margin: 0 auto;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  .equipment h4 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .equipment article .row .divider {
+    height: 44 px;
+  }
 }
 
 .socialmedia .feed {
@@ -282,6 +328,9 @@ footer a {
 footer .bi {
   color: white;
 }
+footer .last-row {
+  display: flex;
+}
 
 .badge {
   font-size: 24px;
@@ -319,5 +368,23 @@ footer .bi {
 
   .video-section {
     display: none;
+  }
+
+  .socialmedia .feed {
+    width: unset;
+  }
+
+  .last-row {
+    display: unset !important;
+    margin-bottom: 40px;
+  }
+
+  .titles {
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  .badge {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
