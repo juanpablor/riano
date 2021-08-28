@@ -296,7 +296,7 @@ video {
   width: 33.33%;
 }
 .socialmedia .feed > iframe {
-  width: 100%;
+  width: 100% !important;
   min-width: unset !important;
   max-width: unset !important;
 }
@@ -344,6 +344,9 @@ footer .last-row {
 
 .modal .modal-dialog {
   max-width: 600px;
+}
+.modal .modal-dialog .modal-title {
+  text-transform: uppercase;
 }
 .modal .modal-dialog .modal-body article {
   margin: 20px;

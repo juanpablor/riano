@@ -318,7 +318,7 @@ video{
     .feed{
         width: 33.33%;
         > iframe{
-            width: 100%;
+            width: 100% !important;
             min-width: unset !important;
             max-width: unset !important;
         }
@@ -370,6 +370,9 @@ footer{
 .modal{
     .modal-dialog{
         max-width: 600px;
+        .modal-title{
+            text-transform: uppercase;
+        }
         .modal-body{
             article{
                 margin:20px;
