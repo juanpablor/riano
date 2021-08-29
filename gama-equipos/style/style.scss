@@ -65,8 +65,45 @@ a{
         height: 54px;
     }
 }
-video{
-    width: 100%;
+.video-section{
+
+    video{
+        width: 100%;
+    }
+    .whatsapp_wrap{
+        bottom: 65%;
+        right: 23px;
+        opacity: 1;
+        transition: opacity 0.5s ease 0s;
+        box-sizing: border-box;
+        direction: ltr;
+        position: fixed !important;
+        z-index: 16000160 !important;
+        .whatsapp_btn{
+            display: flex;
+            margin-top: 14px;
+            position: relative;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            a{
+                width: 50px;
+                height: 50px;
+                order: 1;
+                padding: 5px;
+                box-sizing: border-box;
+                border-radius: 50%;
+                cursor: pointer;
+                overflow: hidden;
+                box-shadow: rgb(0 0 0 / 40%) 2px 2px 6px;
+                transition: all 0.5s ease 0s;
+                position: relative;
+                z-index: 200;
+                display: block;
+                border: 0px;
+                background: rgb(77, 194, 71) !important;
+            }
+        }
+    }
 }
 
 .divider{
@@ -293,6 +330,9 @@ video{
         bottom: 40px;
         float: right;
         margin-right: 15px;
+        &.badge{
+            -webkit-appearance: button-bevel;
+        }
     }
     .max-w-container{
         max-width: 1345px;
@@ -315,6 +355,8 @@ video{
 }
 
 .socialmedia{
+    background: url('../assets/bg-equipment.png') repeat-y bottom right;
+    background-size: 100%;
     .feed{
         width: 33.33%;
         > iframe{
@@ -400,7 +442,11 @@ footer{
         border-color: white;
         position: absolute;
     }
-    .video-section {
+    .whatsapp_wrap{
+        bottom: 23px !important;
+        left: 23px;
+    }
+    video {
         display: none;
     }
     .socialmedia{
