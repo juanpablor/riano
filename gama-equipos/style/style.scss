@@ -341,6 +341,9 @@ a{
     background-size: 100%;
     @media (max-width: 320px) {
         background-size: 500%;
+        h3{
+            padding-left: 50px !important;
+        }
     }
     h3{
         position: relative;
@@ -472,7 +475,11 @@ footer{
         }
     }
 }
-
+@media (max-width: 320px) {
+    .navbar-toggler{
+        right: 12px !important;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 992px) {
     .navbar-toggler{
