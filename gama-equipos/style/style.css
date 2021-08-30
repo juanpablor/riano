@@ -219,6 +219,11 @@ a:hover {
   bottom: 28px;
   margin: 0 auto;
 }
+@media (max-width: 320px) {
+  .we-are span {
+    margin-left: -50px;
+  }
+}
 .we-are .content-wrap {
   margin: 50px auto 120px;
   text-align: center;
@@ -238,6 +243,11 @@ a:hover {
 }
 .we-do h3 {
   padding-bottom: 30px;
+}
+@media (max-width: 320px) {
+  .we-do span {
+    margin-left: -50px;
+  }
 }
 @media (min-width: 320px) and (max-width: 992px) {
   .we-do p {
@@ -317,6 +327,11 @@ a:hover {
   position: relative;
   bottom: 28px;
   margin: 0 auto;
+}
+@media (max-width: 320px) {
+  .equipment {
+    background-size: 500%;
+  }
 }
 .equipment h3 {
   position: relative;

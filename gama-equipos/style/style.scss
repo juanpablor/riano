@@ -234,6 +234,11 @@ a{
         bottom:  28px;
         margin: 0 auto;
     }
+    @media (max-width: 320px) {
+        span{
+            margin-left: -50px;
+        }
+    }
     .content-wrap{
         margin: 50px auto 120px;
         text-align: center;
@@ -253,6 +258,11 @@ a{
     }
     h3{
         padding-bottom: 30px;
+    }
+    @media (max-width: 320px) {
+        span{
+            margin-left: -50px;
+        }
     }
     @media (min-width: 320px) and (max-width: 992px) {
         p{
@@ -329,6 +339,9 @@ a{
     }
     background: url('../assets/bg-equipment.png') repeat-y bottom right;
     background-size: 100%;
+    @media (max-width: 320px) {
+        background-size: 500%;
+    }
     h3{
         position: relative;
         bottom: 60px;
