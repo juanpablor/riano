@@ -1,7 +1,7 @@
 /* definition */
 @font-face {
   font-family: NexaRegular;
-  src: url("/assets/font/NexaRegular.otf");
+  src: url("assets/font/NexaRegular.otf");
   font-weight: normal;
   font-style: normal;
 }
