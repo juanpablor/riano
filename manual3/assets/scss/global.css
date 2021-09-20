@@ -27,10 +27,29 @@ li {
 .logo {
   margin-top: 100px;
 }
+@media (max-width: 768px) {
+  .logo {
+    margin: 50px 0;
+  }
+}
 
 header {
   position: relative;
   z-index: 100;
+}
+@media (max-width: 768px) {
+  header .navbar-toggler {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  header .navbar-toggler,
+header .navbar-collapse {
+    background: white;
+  }
+  header .nav-link {
+    margin-left: 1em;
+  }
 }
 
 .home {
@@ -71,6 +90,11 @@ header {
   display: block;
 }
 
+.proyectos span {
+  height: 20px;
+  display: block;
+}
+
 .project-card.bg-proyecto {
   position: relative;
   z-index: 50;
@@ -89,6 +113,21 @@ header {
 }
 .project-card .height-80 {
   height: 100px;
+}
+
+@media (max-width: 768px) {
+  .proyect-image {
+    margin: 1rem 0 !important;
+  }
+}
+.team .email {
+  height: 20px;
+  display: block;
+}
+@media (max-width: 768px) {
+  .team {
+    background: #dbdbdb;
+  }
 }
 
 .contactenos li {
@@ -132,7 +171,7 @@ header {
   }
 }
 .modal-dialog {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 #btn-back-to-top {
