@@ -1,0 +1,185 @@
+/* definition */
+@font-face {
+  font-family: NexaRegular;
+  src: url("../../assets/font/NexaRegular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* use */
+body {
+  font-family: NexaRegular, Tahoma, serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  margin-top: 100px;
+}
+@media (max-width: 768px) {
+  .logo {
+    margin: 50px 0;
+  }
+}
+
+header {
+  position: relative;
+  z-index: 100;
+}
+@media (max-width: 768px) {
+  header .navbar-toggler {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  header .navbar-toggler,
+header .navbar-collapse {
+    background: white;
+  }
+  header .nav-link {
+    margin-left: 1em;
+  }
+}
+
+.home {
+  transform: scaleX(-1);
+}
+.home:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  z-index: 1000;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dbdbdb+0,ffffff+100&1+0,0+100 */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #dbdbdb 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#dbdbdb", endColorstr="#00ffffff",GradientType=1 );
+  /* IE6-9 */
+}
+.home img {
+  margin-top: -30px;
+  position: relative;
+  z-index: 0;
+}
+
+.introduction {
+  background: #dbdbdb;
+}
+
+.section-title {
+  width: 200px;
+}
+.section-title .emblema {
+  margin: 6px auto;
+  width: 80px;
+  display: block;
+}
+
+.proyectos span {
+  height: 20px;
+  display: block;
+}
+
+.project-card.bg-proyecto {
+  position: relative;
+  z-index: 50;
+  background-position: bottom center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.project-card.puente-verde {
+  background-image: url("../../img/bg-puente-verde.jpg");
+}
+.project-card.casa-s-francisco {
+  background-image: url("../../img/bg-s-francisco.jpg");
+}
+.project-card.casa-giraldo {
+  background-image: url("../../img/bg-casa-giraldo.jpg");
+}
+.project-card .height-80 {
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .proyect-image {
+    margin: 1rem 0 !important;
+  }
+}
+.team .email {
+  height: 20px;
+  display: block;
+}
+@media (max-width: 768px) {
+  .team {
+    background: #dbdbdb;
+  }
+}
+
+.contactenos li {
+  display: inline;
+}
+.contactenos .bi {
+  font-size: 40px;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+.modal-dialog {
+  max-width: 100%;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 14px;
+  font-weight: 100;
+  z-index: 300;
+}/*# sourceMappingURL=global.css.map */

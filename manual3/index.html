@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..:: Manual 3 Taller de Arquitectura ::..</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/scss/global.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body class="container-fluid">
+
+    <button type="button" class="btn btn-secondary btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>Regreso al inicio
+      </button>
+
+    <div class="row logo d-flex justify-content-center">
+        <div class="col-6 col-md-2 text-center my-2">
+            <img class="img-fluid" src="img/logo.svg" alt="Manual 3 Taller de Arquitectura">
+        </div>
+    </div>
+    <header class="d-flex justify-content-center" id="home">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page" href="#">INICIO</a>
+                            <a class="nav-link" href="#proyectos">PROYECTOS</a>
+                            <a class="nav-link" href="#team">NOSOTROS</a>
+                            <a class="nav-link" href="#contactenos">CONTÁCTENOS</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="row d-flex justify-content-center">
+        <div class="col-12 col-md-7 home p-0">
+            <img src="img/bg_home.jpg" class="img-fluid" alt="Inicio">
+        </div>
+        <div class="col-12 col-md-4 introduction d-flex align-items-center p-0">
+            <p class="text-end p-5">En MANUAL 3 amamos los que hacemos, vemos el diseño como una disciplina integral, transversal a todas las actividades de la vida cotidiana.<br><br>
+            Nos importa la experiencia de cada ser vivo en los espacios que concebimos, vivir debe ser un placer.</p>
+        </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <div class="row my-5 p-0">
+            <div class="section-title">
+                <div class="emblema">
+                    <img src="img/emblema.svg" alt="Manual 3" class="img-fluid">
+                </div>
+                <h5 class="text-center">PROYECTOS</h5>
+            </div>
+        </div>
+        <article class="row my-5">
+            <h3>OBRA NUEVA</h3>
+            <div class="col-sm-6 col-md-3 text-center">
+                <!-- Large modal -->
+                <a data-bs-toggle="modal" data-bs-target="#puente-verde">
+                    <!-- imagen -->
+                    <img class="img-fluid" src="img/p-casa-puente-verde.jpg" alt="Casa puente verde"><br>
+                    <span class="col-12">Casa puente verde</span>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+                <!-- Large modal -->
+                <a data-bs-toggle="modal" data-bs-target="#casa-s-francisco">
+                    <!-- imagen -->
+                <img class="img-fluid" src="img/p-casa-san-francisco.jpg" alt="Casa San Francisco"><br>
+                <span class="col-12">Casa San Francisco</span>
+                </a>                
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+                <!-- Large modal -->
+                <a data-bs-toggle="modal" data-bs-target="#casa-giraldo">
+                    <!-- imagen -->
+                <img class="img-fluid" src="img/p-casa-giraldo.jpg" alt="Casa Giraldo"><br>
+                <span class="col-12">Casa Giraldo</span>
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+                <!-- Large modal -->
+                <a data-bs-toggle="modal" data-bs-target="#modulo-m">
+                    <!-- imagen -->
+                <img class="img-fluid" src="img/p-modulo-m.jpg" alt="Modulo M"><br>
+                <span class="col-12">Modulo M</span>
+                </a>
+            </div>
+        </article>
+
+        <article class="row my-5">
+            <h3>INTERIORISMO Y MOBILIARIO</h3>
+            <div class="col-sm-6 col-md-5ths text-center">
+                <img src="img/im-bibliotecas-estudios.jpg" alt="Bibliotecas - Estudios" class="img-fluid"><br>
+                <span class="col-12">Bibliotecas - Estudio</span>
+            </div>
+            <div class="col-sm-6 col-md-5ths text-center">
+                <img src="img/im-banos.jpg" alt="Baños - Lavamanos" class="img-fluid"><br>
+                <span class="col-12">Baños - Lavamanos</span>
+            </div>
+            <div class="col-sm-6 col-md-5ths text-center">
+                <img src="img/im-cocinas.jpg" alt="Cocinas" class="img-fluid"><br>
+                <span class="col-12">Cocinas</span>
+            </div>
+            <div class="col-sm-6 col-md-5ths text-center">
+                <img src="img/im-living-room.jpg" alt="Living room" class="img-fluid"><br>
+                <span class="col-12">Living room</span>
+            </div>
+            <div class="col-sm-6 col-md-5ths text-center">
+                <img src="img/im-areas-privadas.jpg" alt="Areas privadas" class="img-fluid"><br>
+                <span class="col-12">Areas privadas</span>
+            </div>
+        </article>
+    </section>
+
+    <section id="team" class="team">
+        <div class="row my-5 p-0">
+            <div class="section-title">
+                <div class="emblema">
+                    <img src="img/emblema.svg" alt="Manual 3" class="img-fluid">
+                </div>
+                <h5 class="text-center">NOSOTROS</h5>
+            </div>
+        </div>
+        <article class="row my-5">
+            <div class="col-sm-6 col-md-3 text-center">
+                <img class="img-fluid my-3" src="img/t-diana.jpg" alt="Diana Luengas"><br>
+                <span class="col-12">DIANA LUENGAS<br>Arquitecta de desarrollo<br> <a class="email" href="mailto:proyectos@tallerm3.com">proyectos@tallerm3.com</a></span>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+                <img class="img-fluid my-3" src="img/t-mariafernanda.jpg" alt="Maria Fernanda Contreras"><br>
+                <span class="col-12">MARIA FERNANDA CONTRERAS<br>Arquitecta de desarrollo<br> <a class="email" href="mailto:proyectos@tallerm3.com">proyectos@tallerm3.com</a></span>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+                <img class="img-fluid my-3" src="img/t-nicolas.jpg" alt="Nicolás Gonzáles"><br>
+                <span class="col-12">NICOLÁS GONZÁLEZ<br>DIRECTOR<br>Arquitecto diseñador<br> <a class="email" href="mailto:nico.gonzalez@tallerm3.com">nico.gonzalez@tallerm3.com</a></span>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+                <img class="img-fluid my-3" src="img/t-miguel.jpg" alt="Miguel Angel Parada"><br>
+                <span class="col-12">MIGUEL ANGEL PARADA<br>DIRECTOR<br>Arquitecto diseñador<br> <a class="email" href="mailto:migue.parada@tallerm3.com">migue.parada@tallerm3.com</a></span>
+            </div>
+        </article>
+    </section>
+
+    <section id="contactenos" class="contactenos">
+        <div class="row my-5 p-0">
+            <div class="section-title">
+                <div class="emblema">
+                    <img src="img/emblema.svg" alt="Manual 3" class="img-fluid">
+                </div>
+                <h5 class="text-center">CONTACTENOS</h5>
+            </div>
+        </div>
+        <article>
+            <ul>
+                <li class="mx-5"> <a target="_blank" href="https://www.linkedin.com/company/manual-3-taller-de-arquitectura"> <i class="bi bi-linkedin"></i> </a> </li>
+                <li class="mx-5"> <a target="_blank" href="https://instagram.com/manual3_arquitectura"> <i class="bi bi-instagram"></i> </a> </li>
+                <li class="mx-5"> <a target="_blank" href="https://wa.me/573104789631"> <i class="bi bi-whatsapp"></i> </a> </li>
+            </ul>
+        </article>
+    </section>
+
+      
+    <!-- Modal puente-verde -->
+    <div class="modal fade" id="puente-verde" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="project-card bg-proyecto puente-verde">
+                        <span data-bs-dismiss="modal">
+                            <div class="row my-5 p-0">
+                                <div class="section-title">
+                                    <div class="emblema">
+                                        <img src="img/emblema.svg" alt="Manual 3" class="img-fluid">
+                                    </div>
+                                    <h5 class="text-center">PROYECTOS</h5>
+                                </div>
+                            </div>
+                        </span>
+                        <h3 class="mx-5">CASA PUENTE VERDE</h3>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <img src="img/pro-casa-puente-verde-ext.jpg" class="img-fluid proyect-image px-5" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <img src="img/pro-casa-puente-verde-int.jpg" class="img-fluid proyect-image px-5" alt="">
+                                <div class="col-8 offset-4 text-end my-4 px-5">
+                                    <p>Emplazada sobre un terreno inclinado, esta casa unifamiliar tiene un área aproximada de 360 m2 y se ubica en Cajicá – Cundinamarca. En construcción</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>     
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+    <!-- Modal casa-s-francisco -->
+    <div class="modal fade" id="casa-s-francisco" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="project-card bg-proyecto casa-s-francisco">
+                        <div class="row my-5 p-0">
+                            <div class="section-title">
+                                <div class="emblema">
+                                    <img src="img/emblema.svg" alt="Manual 3" class="img-fluid">
+                                </div>
+                                <h5 class="text-center">PROYECTOS</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-8">
+                                <h3 class="mx-5 height-80 px-5 d-flex align-items-end">CASA SAN FRANCISCO</h3>
+                                <div class="px-5">
+                                    <img src="img/pro-casa-san-francisco-ext.jpg" class="img-fluid proyect-image" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <p class="height-80 px-5 m-0 text-end">Emplazada sobre un terreno inclinado, esta casa unifamiliar tiene un área aproximada de 580 m2 y se ubica en San Francisco – Cundinamarca. En construcción</p>
+                                <div class="px-5">
+                                    <div class="row">
+                                        <img src="img/im-cocinas.jpg" class="img-fluid proyect-image" alt="">
+                                    </div>
+                                    <div class="row my-5">
+                                        <img src="img/im-areas-privadas.jpg" class="img-fluid proyect-image my-5" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+    <!-- Modal casa-giraldo -->
+    <div class="modal fade" id="casa-giraldo" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="project-card bg-proyecto casa-giraldo">
+                        <div class="row my-5 p-0">
+                            <div class="section-title">
+                                <div class="emblema">
+                                    <img src="img/emblema.svg" alt="Manual 3" class="img-fluid">
+                                </div>
+                                <h5 class="text-center">PROYECTOS</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h3 class="mx-5 height-80 px-5 d-flex align-items-end">CASA GIRALDO</h3>
+                            <div class="col-sm-12 order-sm-2 col-md-8">
+                                <div class="px-5">
+                                    <img src="img/pro-casa-giraldo-ext.jpg" class="img-fluid proyect-image" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 order-sm-1 col-md-4">
+                                <div class="px-5">
+                                    <div class="row">
+                                        <img src="img/p-casa-giraldo-piscina.jpg" class="img-fluid proyect-image" alt="">
+                                    </div>
+                                    <p class="height-80 py-5 text-end">Casa unifamiliar diseñada para unos amantes del paisaje y con mucha pasión por los árboles frutales, este proyecto se implanta en un cultivo orgánico de mango, presentes en todo el entorno.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      
+    <!-- Modal modulo-m -->
+    <div class="modal fade" id="modulo-m" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section class="project-card bg-proyecto modulo-m">
+                        <div class="row my-5 p-0">
+                            <div class="section-title">
+                                <div class="emblema">
+                                    <img src="img/emblema.svg" alt="Manual 3" class="img-fluid">
+                                </div>
+                                <h5 class="text-center">PROYECTOS</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-8">
+                                <p class="mx-5 col-8">Nuestro primer proyecto en sistema constructivo liviano y prefabricado, diseñado para climas fríos y templados. Si tienes un lote y te interesa una construcción rápida y eficiente, ¡este este proyecto es para ti!</p>
+                                <h3 class="mx-5 d-flex align-items-end">MODULO M</h3>
+                                <div class="px-5">
+                                    <img src="img/pro-modelo-m.jpg" class="img-fluid proyect-image" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="px-5">
+                                    <div class="row">
+                                        <img src="img/sketch-modulo-m.jpg" class="img-fluid proyect-image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+    //Get the button
+    let backToTopButton = document.getElementById("btn-back-to-top");
+    let menuButton = document.getElementById("navbar-toggler");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+    scrollFunction();
+    };
+
+    function scrollFunction() {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+    ) {
+        backToTopButton.style.display = "block";
+        menuButton.style.display = "none";
+    } else {
+        backToTopButton.style.display = "none";
+        menuButton.style.display = "block";
+    }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    backToTopButton.addEventListener("click", backToTop);
+
+        function backToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
