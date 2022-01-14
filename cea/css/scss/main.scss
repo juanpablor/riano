@@ -20,17 +20,38 @@ p {
     margin: 0;
     color: $regular_font_color;
 }
-a {
-    color: $lighter_font;
-    font-size: 12px;
-    text-decoration: none;
-    &:hover {
-        color: $yellow;
+.navbar {
+    a {
+        color: $lighter_font;
+        font-size: 12px;
+        text-decoration: none;
+        &:hover {
+            color: $yellow;
+        }
+    }
+}
+ul {
+    li {
+        list-style-type: none;
+        margin: 16px 0;
+        display: flex;
+        i{
+            color: $yellow;
+            width: 35px;
+        }
+        span {
+            color: white;
+        }
     }
 }
 
+.fs-7 {
+    font-size: 0.75rem!important;
+    color:white;
+}
+
 body {
-    background: white;
+    background: black;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -102,6 +123,10 @@ body {
     }
 }
 
+.bg-white {
+    background: white;
+}
+
 .section-title {
     background: url('../images/title-frame.png') no-repeat;
     background-position: bottom left;
@@ -118,8 +143,62 @@ body {
 .fc-yellow {
     color: $yellow;
 }
+.yellow-frame {
+    background: $yellow;
+    width: 100%;
+}
+
+.section-divider {
+    width: 100%;
+    height: 1px;
+    background: $lighter_font;
+}
 
 .services {
     background-image: url('../images/services-bg.jpg');
-    background-repeat: no-repeat;
-}   
+    background-repeat: repeat-y;
+    background-position: bottom center;
+}
+
+.modal-dialog {
+    max-width: 80%;
+    margin: 1.75rem auto;
+    .modal-content {
+        background-color: $dark_bg;
+        border: $yellow solid 2px;
+        border-radius: 16px;
+    }
+}
+
+.modal {
+    .nav-link {
+        color: $yellow;
+        max-width: 250px;
+        &:after {
+            content: '';
+            width: 200px;
+            height: 1px;
+            display: block;
+            background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, $yellow 50%, rgba(255,255,255,0) 100%);
+            background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,$yellow 50%,rgba(255,255,255,0) 100%);
+            background: linear-gradient(to right,  rgba(255,255,255,0) 0%,$yellow 50%,rgba(255,255,255,0) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+
+        }
+    }    
+}
+
+.openModal{
+    cursor: pointer;
+}
+
+.cea-tab-item {
+    // background-color: transparent;
+    // background-image: url('../../images/item-separator.png');
+    // background-repeat: no-repeat;
+    // background-position: bottom center;
+    &.active {
+        color: white;
+    }
+
+}
