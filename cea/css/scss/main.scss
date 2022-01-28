@@ -31,6 +31,20 @@ p {
     margin: 0;
     color: $regular_font_color;
 }
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 14px;
+    font-weight: 100;
+    z-index: 300;
+
+    color: $mid_contrast_font;
+    background-color: $yellow;
+    border-color: $yellow;
+}
 .navbar {
     a {
         color: $lighter_font;
@@ -99,29 +113,27 @@ body {
             box-shadow: 0px -4px 0px 0px $yellow inset;
             -webkit-box-shadow: 0px -4px 0px 0px $yellow inset;
             -moz-box-shadow: 0px -4px 0px 0px $yellow inset;
-            // &:after {
-            //     content: '';
-            //     width: 0;
-            //     height: 0;
-            //     border-style: solid;
-            //     border-width: 0 5px 10px 5px;
-            //     border-color: transparent transparent $yellow transparent;
-            //     position: relative;
-            //     left: 50%;
-            //     bottom: 14px;
-            // }
         }
-        &.quote {
-            background: $yellow;
-            border-radius: 2px;
-            margin: 10px 0;
-            .nav-link {
-                padding: 10px 30px;
-                color: $dark_bg !important;
-                font-weight: 700;
-            }
-        }
+
     }
+}
+.attachments-collapse {
+    background-color: $yellow !important;
+    border-radius: 2px;
+    margin: 10px 0;
+    border: none;
+    &[aria-expanded="true"]{
+        outline: 1px solid $yellow !important;
+        outline-offset: 4px;
+        color: $dark_bg !important;
+    }
+}
+
+.portfolio {
+    margin-top: 1rem;
+}
+.carousel {
+    margin: 1.5rem 0;
 }
 
 .bg-white {
@@ -216,6 +228,12 @@ body {
     }
 }
 
+.social-media {
+    .devices {
+        display: flex;
+    }
+}
+
 .contactus {
     display: flex;
     > div {
@@ -280,7 +298,8 @@ body {
 
 }
 
-.nav {
+.nav,
+.attachments-collapse {
     &.desktop {
         display: flex
     }
@@ -298,8 +317,12 @@ body {
     }
 }
 
-@include media-breakpoint-between(xs, sm) { 
-    .nav {
+@include media-breakpoint-between(xs, sm) {
+    .location {
+        display: none;
+    }
+    .nav,
+    .attachments-collapse {
         &.desktop {
             display: none
         }
@@ -315,7 +338,8 @@ body {
         }
     }
     .whatsapp_wrap{
-        top: 2%;
+        top: 1%;
+        left: 2%;
     }
     .language {
         right: 10px;
@@ -336,6 +360,14 @@ body {
             margin: 1rem 0;
         }
     }
+    .social-media {
+        .devices {
+            display: unset;
+            > div {
+                margin-top: 1rem;
+            }
+        }
+    }
     .contactus {
         display: block;
         > div {
@@ -354,5 +386,8 @@ body {
         .carousel-indicators {
             display: none;
         }
+    }
+    h2 {
+        font-size: calc(1.325rem + .4vw);
     }
 }
